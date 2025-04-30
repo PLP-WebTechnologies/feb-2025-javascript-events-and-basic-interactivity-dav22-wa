@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  width: 80%;
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4e91f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #3978c9;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#gallery {
+  margin-top: 30px;
+}
+
+.gallery-item {
+  width: 200px;
+  margin: 15px;
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+form {
+  margin-top: 25px;
+}
+
+input {
+  padding: 12px;
+  margin: 8px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #4e91f7;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #f87a5c;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #e74c3c;
+}
